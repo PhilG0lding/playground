@@ -1,0 +1,42 @@
+.behaviour-node {
+  border: 1px;
+  border-radius: 2px;
+  padding: 0.5em;
+  min-width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  box-shadow:
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  background: #17bebb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #17bebb, #14a5a3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #17bebb, #14a5a3);
+}
+
+.behaviour-node.root {
+  background: #e4572e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #f66032, #e4572e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #f66032, #e4572e);
+}
+
+.behaviour-node.selector {
+  background: #ffc914; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #ffc914, #e6b514); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #ffc914, #e6b514);
+}
+
+.behaviour-node.sequence {
+  background: #83c447; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #83c447, #76b041); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #83c447, #76b041);
+}
+
+.behaviour-node.task {
+  background: #17bebb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg, #17bebb, #14a5a3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #17bebb, #14a5a3);
+}
