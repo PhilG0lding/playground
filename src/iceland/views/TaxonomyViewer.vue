@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { default as DrillableList } from '../components/DrillableList.vue'
+import { default as DrillableList } from '../drillable-list/DrillableList.vue'
 import DepartmentItem from '../components/DepartmentItem.vue'
 import CategoryItem from '../components/CategoryItem.vue'
 import type { ListItem } from '../drillable-list/ListItem'

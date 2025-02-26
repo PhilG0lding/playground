@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { computed, defineProps, ref, h, useSlots, type Component, type Slot } from 'vue'
-import type { ListItem } from '../drillable-list/ListItem'
+import { computed, defineProps, ref, h, useSlots, type Slot } from 'vue'
+import type { ListItem } from './ListItem'
 
 const props = defineProps({
   itemList: {
@@ -25,6 +25,8 @@ const itemsToRender = computed(() => {
 })
 
 const slots = useSlots()
+//if history slot exists - create injectable state and inject it in.
+
 const renderItem = (item: ListItem<string | number, object, string>) => {
   const slotComponent = (slots as { [index: string]: Slot })[`item-list-${item.type.toLowerCase()}`]
   if (slotComponent) {
